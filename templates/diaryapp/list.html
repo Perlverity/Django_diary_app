@@ -10,4 +10,12 @@
     <button type="button">詳細</button>
 </a>
 
+<a href="{% url 'update' item.pk %}">
+    <button type="submit">更新</button>
+</a>
+
+<a href="{% url 'delete' item.pk %}">
+    <button type="submit">削除</button>
+</a>
+
 {% endfor %}

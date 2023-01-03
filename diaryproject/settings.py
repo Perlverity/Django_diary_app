@@ -55,8 +55,8 @@ ROOT_URLCONF = 'diaryproject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        # 'DIRS': [BASE_DIR, 'templates'],
-        'DIRS': ['/home/Perlverity/perlverity.pythonanywhere.com/templates'],
+        'DIRS': [BASE_DIR, 'templates'],
+        # 'DIRS': ['/home/Perlverity/perlverity.pythonanywhere.com/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
